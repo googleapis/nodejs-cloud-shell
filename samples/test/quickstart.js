@@ -32,15 +32,6 @@ const cwd = path.join(__dirname, '..');
 const client = new CloudShellServiceClient();
 
 describe('Quickstart', () => {
-  //TODO: remove this if not using the projectId
-  // eslint-disable-next-line no-unused-vars
-  let projectId;
-
-  before(async () => {
-    // eslint-disable-next-line no-unused-vars
-    projectId = await client.getProjectId();
-  });
-
   it('should run quickstart', async () => {
     const stdout = execSync('node ./quickstart.js', {cwd});
     assert.match(stdout, /ServiceClientImpl/);
