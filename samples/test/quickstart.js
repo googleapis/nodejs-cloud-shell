@@ -19,17 +19,12 @@
 
 const path = require('path');
 const cp = require('child_process');
-const {before, describe, it} = require('mocha');
-// eslint-disable-next-line node/no-missing-require
-const {CloudShellServiceClient} = require('@google-cloud/cloud-shell');
-// eslint-disable-next-line no-unused-vars, node/no-missing-require
+const {describe, it} = require('mocha');
 const {assert} = require('chai');
 
 const execSync = cmd => cp.execSync(cmd, {encoding: 'utf-8'});
 
 const cwd = path.join(__dirname, '..');
-
-const client = new CloudShellServiceClient();
 
 describe('Quickstart', () => {
   it('should run quickstart', async () => {
