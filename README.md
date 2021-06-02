@@ -84,19 +84,11 @@ initializeClient();
 
 ## Samples
 
-<<<<<<< HEAD
-Samples are in the [`samples/`](https://github.com/googleapis/nodejs-cloud-shell/tree/master/samples) directory. Each sample's `README.md` has instructions for running its sample.
-
-| Sample                      | Source Code                       | Try it |
-| --------------------------- | --------------------------------- | ------ |
-| Quickstart | [source code](https://github.com/googleapis/nodejs-cloud-shell/blob/master/samples/quickstart.js) | [![Open in Cloud Shell][shell_img]](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/googleapis/nodejs-cloud-shell&page=editor&open_in_editor=samples/quickstart.js,samples/README.md) |
-=======
 Samples are in the [`samples/`](https://github.com/googleapis/nodejs-cloud-shell/tree/main/samples) directory. Each sample's `README.md` has instructions for running its sample.
 
 | Sample                      | Source Code                       | Try it |
 | --------------------------- | --------------------------------- | ------ |
 | Quickstart | [source code](https://github.com/googleapis/nodejs-cloud-shell/blob/main/samples/quickstart.js) | [![Open in Cloud Shell][shell_img]](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/googleapis/nodejs-cloud-shell&page=editor&open_in_editor=samples/quickstart.js,samples/README.md) |
->>>>>>> 06bb77514c62474735b0af8cc6d9c1a638d70db3
 
 
 
