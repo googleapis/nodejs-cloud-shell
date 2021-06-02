@@ -31,11 +31,7 @@ Before running the samples, make sure you've followed the steps outlined in
 
 ### Quickstart
 
-<<<<<<< HEAD
 View the [source code](https://github.com/googleapis/nodejs-cloud-shell/blob/master/samples/quickstart.js).
-=======
-View the [source code](https://github.com/googleapis/nodejs-cloud-shell/blob/master/samples/quickstart.js).
->>>>>>> 06bb77514c62474735b0af8cc6d9c1a638d70db3
 
 [![Open in Cloud Shell][shell_img]](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/googleapis/nodejs-cloud-shell&page=editor&open_in_editor=samples/quickstart.js,samples/README.md)
 
