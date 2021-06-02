@@ -15,7 +15,7 @@ cloudshell client for Node.js
 
 
 A comprehensive list of changes in each version may be found in
-[the CHANGELOG](https://github.com/googleapis/nodejs-cloud-shell/blob/master/CHANGELOG.md).
+[the CHANGELOG](https://github.com/googleapis/nodejs-cloud-shell/blob/main/CHANGELOG.md).
 
 * [Cloud Shell Node.js Client API Reference][client-docs]
 * [Cloud Shell Documentation][product-docs]
@@ -32,8 +32,8 @@ Google APIs Client Libraries, in [Client Libraries Explained][explained].
 * [Quickstart](#quickstart)
   * [Before you begin](#before-you-begin)
   * [Installing the client library](#installing-the-client-library)
-
-
+  * [Using the client library](#using-the-client-library)
+* [Samples](#samples)
 * [Versioning](#versioning)
 * [Contributing](#contributing)
 * [License](#license)
@@ -55,6 +55,40 @@ npm install @google-cloud/cloud-shell
 ```
 
 
+### Using the client library
+
+```javascript
+// Imports the Google Cloud client library
+
+// remove this line after package is released
+// eslint-disable-next-line node/no-missing-require
+const {CloudShellServiceClient} = require('@google-cloud/cloud-shell');
+
+// TODO(developer): replace with your prefered project ID.
+// const projectId = 'my-project'
+
+// Creates a client
+// eslint-disable-next-line no-unused-vars
+const client = new CloudShellServiceClient();
+
+//TODO(library generator): write the actual function you will be testing
+async function initializeClient() {
+  const operation = await client.initialize();
+  console.info(operation);
+}
+initializeClient();
+
+```
+
+
+
+## Samples
+
+Samples are in the [`samples/`](https://github.com/googleapis/nodejs-cloud-shell/tree/main/samples) directory. Each sample's `README.md` has instructions for running its sample.
+
+| Sample                      | Source Code                       | Try it |
+| --------------------------- | --------------------------------- | ------ |
+| Quickstart | [source code](https://github.com/googleapis/nodejs-cloud-shell/blob/main/samples/quickstart.js) | [![Open in Cloud Shell][shell_img]](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/googleapis/nodejs-cloud-shell&page=editor&open_in_editor=samples/quickstart.js,samples/README.md) |
 
 
 
@@ -97,7 +131,7 @@ More Information: [Google Cloud Platform Launch Stages][launch_stages]
 
 ## Contributing
 
-Contributions welcome! See the [Contributing Guide](https://github.com/googleapis/nodejs-cloud-shell/blob/master/CONTRIBUTING.md).
+Contributions welcome! See the [Contributing Guide](https://github.com/googleapis/nodejs-cloud-shell/blob/main/CONTRIBUTING.md).
 
 Please note that this `README.md`, the `samples/README.md`,
 and a variety of configuration files in this repository (including `.nycrc` and `tsconfig.json`)
@@ -109,7 +143,7 @@ to its template in this
 
 Apache Version 2.0
 
-See [LICENSE](https://github.com/googleapis/nodejs-cloud-shell/blob/master/LICENSE)
+See [LICENSE](https://github.com/googleapis/nodejs-cloud-shell/blob/main/LICENSE)
 
 [client-docs]: https://cloud.google.com/shell/docs/reference/rest
 [product-docs]: https://cloud.google.com/shell/

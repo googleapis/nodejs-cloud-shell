@@ -14,7 +14,6 @@
 'use strict';
 
 async function main() {
-
   // [START nodejs_cloud_shell_quickstart]
   // Imports the Google Cloud client library
 
