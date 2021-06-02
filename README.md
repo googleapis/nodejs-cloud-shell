@@ -15,7 +15,7 @@ cloudshell client for Node.js
 
 
 A comprehensive list of changes in each version may be found in
-[the CHANGELOG](https://github.com/googleapis/nodejs-cloud-shell/blob/main/CHANGELOG.md).
+[the CHANGELOG](https://github.com/googleapis/nodejs-cloud-shell/blob/master/CHANGELOG.md).
 
 * [Cloud Shell Node.js Client API Reference][client-docs]
 * [Cloud Shell Documentation][product-docs]
@@ -91,11 +91,11 @@ Samples are in the [`samples/`](https://github.com/googleapis/nodejs-cloud-shell
 | --------------------------- | --------------------------------- | ------ |
 | Quickstart | [source code](https://github.com/googleapis/nodejs-cloud-shell/blob/master/samples/quickstart.js) | [![Open in Cloud Shell][shell_img]](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/googleapis/nodejs-cloud-shell&page=editor&open_in_editor=samples/quickstart.js,samples/README.md) |
 =======
-Samples are in the [`samples/`](https://github.com/googleapis/nodejs-cloud-shell/tree/main/samples) directory. Each sample's `README.md` has instructions for running its sample.
+Samples are in the [`samples/`](https://github.com/googleapis/nodejs-cloud-shell/tree/master/samples) directory. Each sample's `README.md` has instructions for running its sample.
 
 | Sample                      | Source Code                       | Try it |
 | --------------------------- | --------------------------------- | ------ |
-| Quickstart | [source code](https://github.com/googleapis/nodejs-cloud-shell/blob/main/samples/quickstart.js) | [![Open in Cloud Shell][shell_img]](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/googleapis/nodejs-cloud-shell&page=editor&open_in_editor=samples/quickstart.js,samples/README.md) |
+| Quickstart | [source code](https://github.com/googleapis/nodejs-cloud-shell/blob/master/samples/quickstart.js) | [![Open in Cloud Shell][shell_img]](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/googleapis/nodejs-cloud-shell&page=editor&open_in_editor=samples/quickstart.js,samples/README.md) |
 >>>>>>> 06bb77514c62474735b0af8cc6d9c1a638d70db3
 
 
@@ -139,7 +139,7 @@ More Information: [Google Cloud Platform Launch Stages][launch_stages]
 
 ## Contributing
 
-Contributions welcome! See the [Contributing Guide](https://github.com/googleapis/nodejs-cloud-shell/blob/main/CONTRIBUTING.md).
+Contributions welcome! See the [Contributing Guide](https://github.com/googleapis/nodejs-cloud-shell/blob/master/CONTRIBUTING.md).
 
 Please note that this `README.md`, the `samples/README.md`,
 and a variety of configuration files in this repository (including `.nycrc` and `tsconfig.json`)
@@ -151,7 +151,7 @@ to its template in this
 
 Apache Version 2.0
 
-See [LICENSE](https://github.com/googleapis/nodejs-cloud-shell/blob/main/LICENSE)
+See [LICENSE](https://github.com/googleapis/nodejs-cloud-shell/blob/master/LICENSE)
 
 [client-docs]: https://cloud.google.com/shell/docs/reference/rest
 [product-docs]: https://cloud.google.com/shell/
