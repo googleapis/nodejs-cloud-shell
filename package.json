@@ -1,5 +1,5 @@
 {
-  "name": "@google-cloud/cloud-shell",
+  "name": "@google-cloud/shell",
   "version": "0.1.0",
   "description": "cloudshell client for Node.js",
   "repository": "googleapis/nodejs-cloud-shell",
